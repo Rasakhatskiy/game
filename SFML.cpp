@@ -178,30 +178,7 @@ public:
 	void update(float time) {}
 	void updateI(float time, float plx, float ply) {
 
-		//bool lr = false, ll = false, lu = false, ld = false;
-
-		/*if ((px > plx - 50) && (px < plx) && (py > ply - 50) && (py < ply)) {
-			dx = 0.05;
-			dy = 0.05;
-		}
-		else
-			if ((px < plx + 50) && (px > plx) && (py > ply - 50) && (py < ply)) {
-				dx = -0.05;
-				dy = 0.05;
-			}
-			else
-
-				if ((py > ply - 50) && (py < ply) && (px < plx + 50) && (px > plx)) {
-					dx = -0.05;
-					dy = 0.05;
-				}
-				else
-
-					if ((py < ply + 50) && (py > ply) && (px > plx - 50) && (px < plx)) {
-						dx = 0.05;
-						dy = -0.05;
-					}
-					else*/
+		
 		dy += 0.0015*time;
 
 		if (dy == 0)
@@ -315,7 +292,7 @@ public:
 						inWater = false;
 						//onGround = false;
 					break;
-					}//if (TileMap[i][j] == '0' || TileMap[i][j] == 'b' || TileMap[i][j] == 'g') {}					
+					}				
 				}				
 			}
 	}
@@ -556,9 +533,6 @@ public:
 		id = ID;
 		dy = 0.05;
 		toBlock = false;
-		/*direction = stay;
-		toBlock = false;
-		toStay = true;*/
 		texture.loadFromFile("images/sprites.png");
 		sprite.setTexture(texture);
 		switch (id) {
@@ -710,11 +684,11 @@ void Game() {
 	char invBuff = ' ', buffBuff = ' ';//буфер инвентаря
 	unsigned short int invCountBuff = 0, countBuffBuff = 0;
 	float timerInv = 0,//кулдаун клацанья даунской мыши
-		tabTimer = 0,
+		tabTimer = 0,//кулдаун таб
 		teleportTimer = 0,
-		spawnTimer = 0,
-		attacTimer = 0,
-		hurtTimer = 0,
+		spawnTimer = 0,//спавн ботов
+		attacTimer = 0,//кулдаун атаки
+		hurtTimer = 0,//кулдаун урона
 		regenTimer = 0;
 
 
