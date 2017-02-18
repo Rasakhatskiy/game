@@ -1,0 +1,60 @@
+﻿Сборка начата 09.02.2017 19:46:53.
+     1>Проект "D:\программирование\games\pacmanSFML.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (pacmanSFML.vcxproj, TemplateSFML.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_DYNAMIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt SFML.cpp
+         SFML.cpp
+     1>d:\программирование\games\bars.h(23): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\программирование\games\camera.h(14): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\camera.h(16): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(109): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(166): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(174): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(175): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(191): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(198): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(209): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(215): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(221): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(222): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(231): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(236): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(241): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(244): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(269): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(282): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(285): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(295): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(312): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(314): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(327): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(329): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(335): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(336): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(350): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(351): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(360): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(365): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(370): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(375): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(410): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(415): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(427): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(432): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(435): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(451): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(454): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(484): warning C4305: аргумент: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(525): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+     1>d:\программирование\games\sfml.cpp(714): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(716): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(718): warning C4305: =: усечение из "double" к "float"
+     1>d:\программирование\games\sfml.cpp(736): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\программирование\games\Debug\James.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\SFML-2.3.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\программирование\games\Debug\James.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\программирование\games\Debug\James.lib" /MACHINE:X86 Debug\SFML.obj
+         pacmanSFML.vcxproj -> D:\программирование\games\Debug\James.exe
+     1>Сборка проекта "D:\программирование\games\pacmanSFML.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.19
